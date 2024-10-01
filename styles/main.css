@@ -1,3 +1,4 @@
+/* common styles */
 section {
   margin-bottom: 20px;
 }
@@ -27,11 +28,12 @@ select {
 .required-field{
   color: red;
 }
+
+
+/* Загальна інформація */
 .title{
   text-align: center;
 }
-
-/* Загальна інформація */
 .general-information {
   display: flex;
 }
@@ -49,8 +51,7 @@ select {
   clear: both;
 }
 .cat-bg {
-  width: 200%;
- 
+  width: 50%;
   background-image: url(/images/4.jpg);
   position: relative;
 }
