@@ -1,0 +1,143 @@
+section {
+  margin-bottom: 20px;
+}
+button {
+  background-color: #4e75ff;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #4e74ff00;
+  color: #fff;
+  font-size: 14px;
+}
+button:hover {
+  background-color: #6c8cff;
+}
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=date], input[type=tel] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.required-field{
+  color: red;
+}
+.title{
+  text-align: center;
+}
+
+/* Загальна інформація */
+.general-information {
+  display: flex;
+}
+.cat-inf {
+  display: flex;
+}
+
+.first-img {
+  float: left;
+}
+.second-img {
+  float: right;
+}
+.third-img{
+  clear: both;
+}
+.cat-bg {
+  width: 200%;
+ 
+  background-image: url(/images/4.jpg);
+  position: relative;
+}
+/* навігація */
+
+.nav-section{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navigation-list-item{
+    padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navigation-list-item:hover{
+   /* background-color: #6c8cff; */
+   color: #d5d2d2;
+}
+.navigation-list {
+    background-color: #4e75ff;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ФОРМА РЕЄСТРАЦІЇ */
+.registration-section{
+  padding-top: 55px;
+}
+.registration-form-title{
+  text-align: center;
+}
+.registration-form {
+  display: flex;
+  justify-content: space-around;
+}
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.registration-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+/* форма входу */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-form-button {
+  width: 80px;
+  align-self: center;
+}
+/* форма зворотнього зв'язку */
+.feedback {
+  display: flex;
+  justify-content: space-around;
+}
+.feedback-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* footer */
+.footer-list {
+  display: flex;
+  gap: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #94a5ed;
+  padding: 6px;
+  border-radius: 4px;
+  /* z-index: 3000; */
+}
+
+.footer-list-use {
+  width: 30px;
+  height: 30px;
+}
+.footer-list-use:hover{
+  fill: #1f2c63;
+}
