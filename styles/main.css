@@ -52,8 +52,9 @@ select {
 }
 .cat-bg {
   width: 50%;
-  background-image: url(/images/4.jpg);
+  background-image: url(images/4.jpg);
   position: relative;
+  background-repeat: repeat; 
 }
 /* навігація */
 
